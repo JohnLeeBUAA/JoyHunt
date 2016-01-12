@@ -1,0 +1,92 @@
+.fixtop{
+	position: absolute;
+	top: 10px;
+}
+
+.indexcenter{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 755px;
+	width: 425px;
+	background-image: url(../images/bg.png);
+	vertical-align: top;
+}
+
+.title{
+	position: absolute;
+	top: 100px;
+	left: 60px;
+	height: 70px;
+	width: 300px;
+}
+
+.login{
+	position: absolute;
+	top: 280px;
+	left: 90px;
+	height: 70px;
+	width: 300px;
+}
+
+.space{
+	position: absolute;
+	top: 80px;
+	left: 0;
+	height: 1300px;
+	width: 100%;
+	background-color: white;
+}
+
+.mysuccessbutton {
+    background-color: #5cb85c;
+    border: 0px solid #5cb85c;
+    border-color: #5cb85c;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.myprimarybutton {
+    background-color: #337ab7;
+    border: 0px solid #337ab7;
+    border-color: #337ab7;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    background-color: #5cb85c;
+    border: 0px solid #5cb85c;
+    border-color: #5cb85c;
+    border-radius: 5px;
+    height: 40px;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.smallline {
+    line-height: 13px;
+}
+
+.tl {
+    line-height: 8px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/my.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+		<link href="css/sidebar.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2 text-center">
+						<table class="fixtop" width="100%">
+							<tr>
+								<td align="left">
+									<a onclick="goBack()"><font color="white" size="5"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></font></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-xs-8 text-center">
+						<table class="fixtop" width="100%">
+							<tr>
+								<td align="center">
+									<font color="white" size="5"><strong>Quest Map</strong></font>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-xs-2 text-center">
+						<table class="fixtop" width="100%">
+							<tr>
+								<td align="right">
+									<a href="./takepic.html"><font color="white" size="5"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span></font></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+
+
+		<a name="top"></a>
+		<div class="jsc-sidebar-content jsc-sidebar-pulled">
+			<div class="space">
+				<div class="container-fluid">
+					<div class="row text-center">
+						<font color="#337ab7" size="5">Pre-Quests</font>
+					</div>
+					<div class="tl"><font color="white">t</font></div>
+					<div class="row text-center">
+						<div class="col-xs-4">
+						<a href="./wishlistprequest.html">
+							<img src="images/gift.png" alt="Responsive image" class="img-responsive img-rounded" style="width: 100%;">
+						</a>
+						</div>
+						<div class="col-xs-4">
+							<img src="images/person.png" alt="Responsive image" class="img-responsive img-rounded" style="width: 95%;">
+						</div>
+						<div class="col-xs-4">
+							<img src="images/exchange.png" alt="Responsive image" class="img-responsive img-rounded" style="width: 95%;">
+						</div>
+					</div>
+					<hr style="width: 100%; color: #ccc; height: 1px; background-color:#ccc;" />
+					<div class="row text-center">
+						<font color="#337ab7" size="5">Quests</font>
+					</div>
+					
+					<div class="row text-center">
+						<div class="col-xs-12">
+							<img src="images/questwalllocked.png" alt="Responsive image" class="img-responsive img-rounded" style="width: 100%;">
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<nav class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2 text-center">
+						<table class="fixtop" width="100%">
+							<tr>
+								<td align="left">
+									<a href="" class="jsc-sidebar-trigger"><font color="white" size="5"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></font></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-xs-8 text-center">
+						<table class="fixtop" width="100%">
+							<tr>
+								<td align="center">
+									<a href="#top"><font color="white" size="5"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span></font></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-xs-2 text-center">
+						<table class="fixtop" width="100%">
+							<tr>
+								<td align="right">
+									<a href="./settings.html"><font color="white" size="5"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></font></a>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<nav class="navbar navbar-default jsc-sidebar" id="jsi-nav" data-sidebar-options="">
+			<div class="container">
+			<ul>
+				<li><a href="" class="current"><font color="#337ab7" size="5">NO</font></a></li>
+				<li><a href="" class="current"><font color="#337ab7" size="5">NO</font></a></li>
+				<li><table><tr><td width="30%"><img src="images/me.png" alt="Responsive image" class="img-responsive img-circle" style="width: 100%;"></td><td width="70%"><font color="white" size="5">&nbsp;My Profile</font></td></tr></table></li>
+				<hr>
+				<li><a href="./huntlist.html" class="current"><font color="white" size="5"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp;Hunt List</font></a></li>
+				<li><a href="./questwall.html" class="current"><font color="white" size="5"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>&nbsp;Quest Map</font></a></li>
+				<hr>
+				<li><a href="./achievements.html" class="current"><font color="white" size="5"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp;Achievements</font></a></li>
+				<li><a href="./moments.html" class="current"><font color="white" size="5"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>&nbsp;Quest Wall</font></a></li>
+				<li><a href="./leaderboard.html" class="current"><font color="white" size="5"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span>&nbsp;Leader Board</font></a></li>
+				<hr>
+				<li><a href="./wishlist.html" class="current"><font color="white" size="5"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span>&nbsp;Wish List</font></a></li>
+				<li><a href="./personality.html" class="current"><font color="white" size="5"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;Personality</font></a></li>
+
+				
+			</ul>
+			</div>
+		</nav>
+		
+		<script src="js/sidebar.js"></script>
+		
+		<script>
+			$('#jsi-nav').sidebar({
+				trigger: '.jsc-sidebar-trigger',
+				scrollbarDisplay: true,
+				pullCb: function () { console.log('pull'); },
+				pushCb: function () { console.log('push'); }
+			});
+
+			$('#api-pull').on('click', function (e) {
+				e.preventDefault();
+				$('#jsi-nav').data('sidebar').push();
+			});
+			$('#api-push').on('click', function (e) {
+				e.preventDefault();
+				$('#jsi-nav').data('sidebar').pull();
+			});
+
+			function goBack() {
+			    window.history.back();
+			}
+		</script>
+	</body>
+</html>
